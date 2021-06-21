@@ -1,28 +1,12 @@
-# Final project of my Immersive Course in Data Science at General Assembly London
+# Final project in Data Science at HIT.
 # Predicting market value of football players
 
 ## Introduction to the project
 
-**[SPOILER ALERT]** The conclusions and results of the project can be found in this [Executive Summary of Conclusions](./Findings_and_conclusions.pdf)
 
 Football players market value is kind of a black box: more often than not it’s clear which players are worth more than others, but nobody knows with precision which are those features that move the price of a player, increasing o reducing it in thousands or even millions of dollars. That's why this project attempts to:
-
 Introduce a systematic way of predicting the market value of football players. Independent of subjective assumption
- 
-Deep dive into the features that fix the market value of football players, bringing some clarity on the discussion about which things make a player more expensive than others
-
-## Audience of these project
-
-This project aims to attract the attention of two targets:
-
-General audience: anybody who is into football will probably be interested in throwing some kind of certainty about what moves the price of a player. Any football fan around the world probably had one or several conversations about the topic and could be translated in any kind of publication of popular interest.
- 
-Football clubs: let’s remember the book and movie Moneyball, where the main character, Beane, needed to assemble a competitive baseball team with a limited budget. Rather than relying on scouts experience and intuition, Bean uses Data Science selecting players based on their on-base statistics. In the real world, many football teams are still buying players according to their intuition or popular knowledge about the price. This project could be translated into a concise purchase method for clubs.
-
-## What are you going to find in this repository
-
 This project was divided into 5 different stages:
-
 1. Planning
 2. Obtaining the data
 3. Cleaning
@@ -34,17 +18,14 @@ This project was divided into 5 different stages:
 By popular knowledge, which are the things that usually we all talk about when discussing the price of a football player? This was the first question I made myself when I started to think about this project. Which I translated in trying to obtain:
 
 1. Statistics about their performance
-2. Some measure of the brand value (I'm going to explain this in detail later)
+2. Some measure of the brand value 
 3. Demographic information
 4. Behavioural data
 
 From here I started gathering the following information.
 
 ### [STAGE 2] Obtaining the data
-
-The biggest challenge around this, was indeed, not getting banned. All the websites I used to gather my dataset, have proactive banning systems to prevent large amounts of scraping. Therefore, I had to create some kind of incognito tool to prevent this situation. 
-
-I ended up with two ways of scraping and not getting banned:
+ two ways of scraping and not getting banned:
 
 Using Tor Requests, in such a way that that the IP used in each iteration gets updated, preventing being banned in some websites as https://transfermarkt.co.uk/
  
